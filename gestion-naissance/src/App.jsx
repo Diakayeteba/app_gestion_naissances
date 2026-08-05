@@ -1,11 +1,16 @@
+import { Outlet } from "react-router"
 
 
 function App() {
   
   return (
-    <main> Bienvenue sur mon Application de Gestion des naissances</main>
+    <main>
+       <Outlet/>
+       </main>
+       
      
   )
+   
 }
 
 export default App
