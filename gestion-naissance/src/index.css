@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+
+/* Si tu veux personnaliser le thème ou centrer le container  "gemini"*/
+@theme {
+  --container-center: true;
+}
+  @utility container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;  /* Optionnel : évite que le contenu colle aux bords sur mobile "gemini" */
+  padding-right: 1rem;
+}

@@ -1,0 +1,22 @@
+import { Link } from 'react-router'
+import { NAV_LINKS } from '../../utils/data';
+
+function Nav() {
+  return (
+    <nav className='z-10 bg-white shadow-md w-56 fixed flex flex-col justify-between top-0 left-0 bottom-0'>
+         <Link to = {"/private/declaration"} className='bg-blue-600 text-white uppercase text-center py-5 font-extrabold text-xl'>Les nouvelles vies</Link>
+        <ul>
+            {NAV_LINKS.map(({to, label}, index) => (
+                <li key={`navlink-${index}`}  className={`border-b border-gray-300 
+                    
+                    ${index=== 0 ? "border-t" : null}`} >
+                <Link to = {to} className='py-2 pl-2 hover:bg-gray-200 block'>{label} </Link>
+            </li>
+            ))}
+        </ul>
+        <button type='button' onClick={() => null } className='bg-red-600 text-white  hover:text-red-600 py-2 font-normal hover:border hover:border-red-600 hover:bg-white rounded-sm '>Déconnexion</button>
+    </nav>
+  );
+}
+
+export default Nav

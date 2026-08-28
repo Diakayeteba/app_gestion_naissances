@@ -4,9 +4,10 @@ import { Outlet } from "react-router"
 function App() {
   
   return (
-    <main>
+    <main className="bg-gray-200 min-h-screen">
        <Outlet/>
-       </main>
+       
+    </main>
        
      
   )
