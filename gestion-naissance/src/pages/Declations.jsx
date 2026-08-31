@@ -1,7 +1,7 @@
 
 function Declations() {
   return (
-    <div>Déclarations</div>
+    <div>Les déclarations</div>
   )
 }
 
