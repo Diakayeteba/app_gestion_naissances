@@ -9,7 +9,7 @@ function PrivateLayout() {
 
     <main className='wrapper pl-64 pr-4'>
       <header className='flex justify-between my-3 text-2xl front-bold'>
-        <h3>Déclarations</h3>
+        <h3>Declarations</h3>
         <span>Madou</span>
       </header>
         <Outlet/>
