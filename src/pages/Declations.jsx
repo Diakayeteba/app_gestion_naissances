@@ -42,7 +42,7 @@ function Declations() {
             <span> {item.seconParent.lastName} </span>
           </span>
 
-          <span className={`col-span-1  border-gray-300`}>
+          <span className={`col-span-1  border-gray-200`}>
             <span> {item.status} </span>
            
           </span >
