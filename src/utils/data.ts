@@ -29,7 +29,7 @@ const NAV_LINKS = [
         label: 'Agents'
     },
     {
-        to : '/private/Paramètres',
+        to : '/private/paramètres',
         label: 'Paramètres'
     },
 ]
